@@ -1,0 +1,6 @@
+file = open("m.txt", "w+")
+file.write("this ofdjigjsmdlg kasmgkdfg")
+file.seek(0)
+data=file.read()
+print(data)
+file.close()
